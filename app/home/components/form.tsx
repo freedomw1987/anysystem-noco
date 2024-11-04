@@ -5,7 +5,6 @@ import {
   FormComponent,
   Container,
   Text,
-  Modal,
   Button,
   ModalHandler,
 } from "anysystem-design";
@@ -178,7 +177,7 @@ export default function Form() {
               },
             },
           ]}
-          onSubmit={(values: HomePageFormValues) => console.log(values)}
+          onSubmit={(values) => console.log(values)}
           className="space-y-2"
         >
           <Button
